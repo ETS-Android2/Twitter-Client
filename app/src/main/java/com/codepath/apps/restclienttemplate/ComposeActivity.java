@@ -99,7 +99,7 @@ public class ComposeActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                tvCharacterCount.setText(Integer.toString(140 - etCompose.length()));
+                tvCharacterCount.setText(Integer.toString( MAX_TWEET_LENGTH - etCompose.length()));
                 tvCharacterCount.setTextColor(etCompose.length() > MAX_TWEET_LENGTH ?
                         ResourcesCompat.getColor(getResources(), R.color.twitter_red, null) :
                         ResourcesCompat.getColor(getResources(), R.color.twitter_gray, null));
