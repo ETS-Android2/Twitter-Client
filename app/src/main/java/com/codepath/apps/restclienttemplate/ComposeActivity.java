@@ -90,7 +90,7 @@ public class ComposeActivity extends AppCompatActivity {
             }
         });
 
-           /* etCompose.addTextChangedListener(new TextWatcher() {
+            etCompose.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
 
@@ -107,10 +107,10 @@ public class ComposeActivity extends AppCompatActivity {
             }
         });
 
-        setTweetButtonEnabled(false);*/
+        setTweetButtonEnabled(false);
     }
 
-   /* private void setTweetButtonEnabled(boolean enabled) {
+      private void setTweetButtonEnabled(boolean enabled) {
         formEnabled = enabled;
         btnTweet.setEnabled(enabled);
         btnTweet.setAlpha((float) (enabled ? 1 : 0.6));
@@ -118,7 +118,7 @@ public class ComposeActivity extends AppCompatActivity {
 
     public void onCancelAction(View view) {
         finish();
-    }*/
+    }
 
     }
 
